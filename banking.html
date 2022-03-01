@@ -11,8 +11,8 @@
     <header >
         <h1 class="text-5xl text-center my-5 ">Let's get some<span class="text-cyan-600"> Maney</span>!..</h1>
     </header>
-    <main>
-        <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
+    <main class="w-3/4 mx-auto">
+        <div class="grid grid-cols-3 gap-4 ">
             <div class="bg-orange-300 p-5 rounded">
                 <h3 class="text-2xl">Deposit</h3>
                 <h4 class="text-3xl">$00</h4>
@@ -21,11 +21,30 @@
                 <h3 class="text-2xl">Withdraw</h3>
                 <h4 class="text-3xl">$00</h4>
             </div>
-            <div class="bg-red-300 p-5 rounded">
+            <div class="bg-violet-300 p-5 rounded">
                 <h3 class="text-2xl">Balance</h3>
                 <h4 class="text-3xl">$100</h4>
             </div>
         </div>
+
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4 ">
+                <div class="bg-rose-300 p-5 rounded">
+                    <h3 class="text-2xl">Please Deposit</h3>
+
+                    <input id="deposit-amount" class="block p-2 border border-slate-500 rounded" placeholder="Enter Your Deposit Amount" type="text">
+           
+                    <button id="deposit-submit" class="py-2 px-4 bg-cyan-700 rounded my-2 text-white" >Deposit</button>
+                </div>
+                <div class="bg-rose-300 p-5 rounded">
+                    <h3 class="text-2xl">Withdraw</h3>
+
+                    <input id="withdraw-amount" class="block p-2 border border-slate-500 rounded" placeholder="Enter Your Deposit Amount" type="text">
+           
+                    <button id="withdraw-submit" class="py-2 px-4 bg-cyan-700 rounded my-2 text-white" >Withdraw</button>
+                </div>
+            </div>
+        </section>
     </main>
 
 
