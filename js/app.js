@@ -14,3 +14,6 @@ loginSubmit.addEventListener('click',()=>{
         window.location.href = 'banking.html';
     }
 })
+
+
+
