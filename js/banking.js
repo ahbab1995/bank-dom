@@ -24,13 +24,13 @@ document.getElementById('deposit-submit').addEventListener('click', ()=>{
   
     depositInput.value = '';
 
+})
+
+
+
     //
 
-   document.getElementById('withdraw-submit').addEventListener('click', ()=>{
-       console.log('click you')
-   })
-
-
-
-
-})
+    document.getElementById('withdraw-submit').addEventListener('click', ()=>{
+        console.log('click you')
+    })
+ 
