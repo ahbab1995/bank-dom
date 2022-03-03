@@ -28,9 +28,17 @@ document.getElementById('deposit-submit').addEventListener('click', ()=>{
 
 
 
-    //
+    // handle withdraw event handler
 
     document.getElementById('withdraw-submit').addEventListener('click', ()=>{
-        console.log('click you')
+        const withdrawInput = document.getElementById('withdraw-amount');
+        const withdrawInputText = withdrawInput.value;
+        const newWithdrawInput = parseFloat(withdrawInputText);
+        console.log(newWithdrawInput)
+
+        // set withdraw total
+        const withdrawTotal = document.getElementById('withdraw-total');
+
+        withdrawInput.value = '';
     })
  
